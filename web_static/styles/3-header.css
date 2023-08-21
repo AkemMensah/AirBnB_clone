@@ -1,0 +1,24 @@
+header{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.logo {
+    width: 100px; /* Set the width of your logo */
+    height: 70px; /* Set the height of your logo */
+    background-image: url('../images/580b57fcd9996e24bc43c513.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
