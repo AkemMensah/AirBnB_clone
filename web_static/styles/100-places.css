@@ -1,0 +1,187 @@
+.places { 
+    max-width: 1000px;
+    margin: 0px auto;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.places h1 {
+    width: 100%;
+    padding-left: 22px;
+}
+
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid red;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.places article h2 {
+    font-size: 30px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.places article div.price_by_night {
+    color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    border-radius: 50%;
+    max-width: 80px;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+.places article div.information {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #DDDDDD;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    float: left;
+    font-size: 12px;
+    position: relative;
+}
+
+div.information div.max_guest, div.information div.number_rooms, div.information div.number_bathrooms {
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: 4px auto;
+    text-align: center;
+    line-height: 9em;
+}
+.icon1 {
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/group-icon.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon2{
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../images/sleep-icon.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon3{
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../images/bathtub-icon.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info{
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    margin: 10px;
+}
+.user, .description {
+    font-size: 14px;
+    margin-top: 6%;
+}
+
+.amenities{
+    margin-top: 40px;
+    padding-bottom:200px ;
+    margin-left: 0;
+    width: 100%;
+}
+
+.amenities h2{
+    display: flex;
+    text-align:left;
+    font-size: 16px;
+    border-bottom: 1px #DDDDDD solid;
+}
+
+.amenities ul{
+    list-style: none;
+    margin-left: 0;
+}
+
+.amenities ul li{
+    font-size: 16px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.pet{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/pngfind.com-palace-pets-png-3435290.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tv{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/pngfind.com-tv-icon-png-368575.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wifi{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/pngfind.com-wifi-icon-png-832848.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.reviews{
+    margin-left: 0;
+    justify-content: left;
+    margin-top: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.reviews h2{
+    display:flex;
+    font-size: 16px;
+    text-align:left;
+    border-bottom: 1px #DDDDDD solid ;
+}
+
+.reviews ul{
+    list-style: none;
+
+}
+
+.reviews h3{
+    font-size: 14px;
+}
+
+.reviews p{
+    font-size: 12px;
+}
